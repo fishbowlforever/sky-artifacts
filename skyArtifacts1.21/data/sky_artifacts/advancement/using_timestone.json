@@ -1,0 +1,25 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:yellow_dye",
+            "minecraft:black_dye",
+            "minecraft:light_blue_dye",
+            "minecraft:red_dye",
+            "minecraft:orange_dye",
+			"minecraft:purple_dye"
+          ],
+          "predicates": {
+            "minecraft:custom_data": {"sky_artifacts":"timestone"}
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "sky_artifacts:try_use_timestone"
+  }
+}

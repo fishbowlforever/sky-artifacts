@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:lapis_lazuli",
+          "predicates": {
+            "minecraft:custom_data": {"sky_artifacts":"rainstone"}
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "sky_artifacts:try_use_rainstone"
+  }
+}
