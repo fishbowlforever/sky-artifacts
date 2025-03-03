@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:clock",
+          "predicates": {
+            "minecraft:custom_data": {"sky_artifacts":"freeze_time"}
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "sky_artifacts:try_freeze_time"
+  }
+}

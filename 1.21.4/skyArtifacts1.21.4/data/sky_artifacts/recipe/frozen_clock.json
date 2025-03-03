@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        "minecraft:ice",
+        "minecraft:clock"
+    ],
+    "result": {
+        "id": "minecraft:music_disc_far",
+        "components": {
+			"max_stack_size": 64,
+			"!jukebox_playable": {},
+			"item_model": "minecraft:clock",
+            "item_name": "[{'text':'Frozen Clock'}]",
+            "custom_data": {
+                "sky_artifacts": "freeze_time"
+            },
+            "enchantment_glint_override": true,
+			"consumable": {
+				"consume_seconds": 0.3,
+				"animation": "none",
+				"!sound": ""
+			}
+        }
+    }
+}

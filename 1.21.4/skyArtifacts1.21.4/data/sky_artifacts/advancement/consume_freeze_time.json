@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:music_disc_far",
+          "predicates": {
+            "minecraft:custom_data": {"sky_artifacts":"freeze_time"}
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "sky_artifacts:consume_freeze_time"
+  }
+}

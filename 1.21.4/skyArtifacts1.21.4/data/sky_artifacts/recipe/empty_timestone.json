@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        "minecraft:clock",
+        "minecraft:clay_ball"
+    ],
+    "result": {
+        "id": "minecraft:music_disc_far",
+        "components": {
+			"max_stack_size": 64,
+			"!jukebox_playable": {},
+			"item_model": "minecraft:clay_ball",
+            "item_name": "[{'text':'Empty Timestone'}]",
+            "custom_data": {
+                "sky_artifacts": "empty_timestone"
+            },
+            "enchantment_glint_override": true,
+            "food": {
+                "saturation": 0,
+                "nutrition": 0,
+                "can_always_eat": true,
+                "eat_seconds": 1000000.0
+            }
+        }
+    }
+}
