@@ -1,3 +1,0 @@
-scoreboard objectives add sky_artifacts_left minecraft.custom:minecraft.leave_game
-scoreboard objectives add sky_artifacts_cooldown dummy
-scoreboard objectives add sky_artifacts_time dummy

@@ -1,1 +1,0 @@
-$execute positioned ~ ~1.8 ~ run particle minecraft:item{item:"$(id)"} ^ ^ ^1 0.1 0.1 0.1 0.05 100 normal
