@@ -16,9 +16,13 @@
             },
             "enchantment_glint_override": true,
             "consumable": {
-				"consume_seconds": 1000,
+				"consume_seconds": 0.1,
 				"animation": "none",
 				"!sound": ""
+			},
+			"minecraft:use_cooldown":{
+				"seconds":0.3, 
+				"cooldown_group":"sky_artifacts:empty_timestone"
 			}
         }
     }
