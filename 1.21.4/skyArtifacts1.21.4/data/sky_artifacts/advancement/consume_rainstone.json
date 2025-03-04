@@ -1,12 +1,10 @@
 {
   "criteria": {
     "requirement": {
-      "trigger": "minecraft:using_item",
+      "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "items": [
-			"minecraft:lapis_lazuli"
-		  ],
+          "items": "minecraft:music_disc_far",
           "predicates": {
             "minecraft:custom_data": {"sky_artifacts":"rainstone"}
           }
@@ -15,6 +13,6 @@
     }
   },
   "rewards": {
-    "function": "sky_artifacts:try_use_rainstone"
+    "function": "sky_artifacts:consume_rainstone"
   }
 }

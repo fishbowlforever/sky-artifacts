@@ -5,8 +5,7 @@
       "conditions": {
         "item": {
           "items": [ 
-		    "minecraft:clock",
-			"minecraft:music_disc_far"
+		    "minecraft:clock"
 		  ],
           "predicates": {
             "minecraft:custom_data": {"sky_artifacts":"freeze_time"}

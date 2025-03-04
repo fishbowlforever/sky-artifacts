@@ -15,12 +15,11 @@
                 "sky_artifacts": "empty_timestone"
             },
             "enchantment_glint_override": true,
-            "food": {
-                "saturation": 0,
-                "nutrition": 0,
-                "can_always_eat": true,
-                "eat_seconds": 1000000.0
-            }
+            "consumable": {
+				"consume_seconds": 1000,
+				"animation": "none",
+				"!sound": ""
+			}
         }
     }
 }
