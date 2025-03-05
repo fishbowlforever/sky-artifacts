@@ -7,6 +7,7 @@
     "result": {
         "id": "minecraft:music_disc_far",
         "components": {
+			"minecraft:rarity": "common",
 			"max_stack_size": 64,
 			"!jukebox_playable": {},
 			"item_model": "minecraft:clay_ball",

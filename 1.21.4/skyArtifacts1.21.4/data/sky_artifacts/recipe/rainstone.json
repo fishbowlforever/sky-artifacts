@@ -7,9 +7,10 @@
     "result": {
         "id": "minecraft:music_disc_far",
         "components": {
+			"minecraft:rarity": "common",
 			"max_stack_size": 64,
 			"!jukebox_playable": {},
-			"item_model": "minecraft:lapis_lazuli",
+			"item_model": "minecraft:player_head",
             "item_name": "[{'text':'Rainstone'}]",
             "custom_data": {
                 "sky_artifacts": "rainstone"
@@ -23,7 +24,15 @@
 			"minecraft:use_cooldown":{
 				"seconds":10, 
 				"cooldown_group":"sky_artifacts:rainstone"
-			}
+			},
+			"minecraft:profile": {
+                "properties": [
+                    {
+                        "name": "textures",
+                        "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTc3YzFmYzkzMjE2ZTk2ZDQzNWNmOTYyZTExNzNkZThkMWEyNDliNjQ0ODk0ZDcyNjc2ZWJhNzMyZmNkNTZlNyJ9fX0="
+                    }
+                ]
+            }
         }
     }
 }
